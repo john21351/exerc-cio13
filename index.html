@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 13</title>
+    <link rel="stylesheet" href="link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet".css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="./fotos/logo.png" alt="">
+        </div>
+    </header>
+    <div id="carousel-carros" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="1000" class="carousel-item active">
+                <img class="d-block w-100" src="./fotos/cadilac.jpg" class="d-block w-100" alt="Cadilac">
+                <div class="carousel-caption">
+                    <h2>Cadilac</h2>
+                </div>
+            </div>
+            <div data-bs-interval="1000" class="carousel-item">
+                <img class="d-block w-100" src="./fotos/fusca.jpg" class="d-block w-100" alt="Fusca">
+                <div class="carousel-caption">
+                    <h2>Fusca Branco</h2>
+                </div>
+            </div>
+            <div data-bs-interval="1000" class="carousel-item">
+                <img class="d-block w-100" src="./fotos/fusca2.jpg" class="d-block w-100" alt="Fusca 2">
+                <div class="carousel-caption">
+                    <h2>Fusca Azul</h2>
+                </div>
+            </div>
+        </div>
+        <button data-bs-target="#carousel-carros" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button data-bs-target="#carousel-carros" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-carros" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel-carros" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-carros" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+    <h1 class="titulo-bot">Nossos Carros</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="./fotos/coluna01.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Grande Fusca Conversivel</h4>
+                        <h5 class="card-subtitle">"O Grande Fusca Conversível é uma fusão de estilo clássico e inovação,
+                            apresentando o charme atemporal do icônico Fusca, agora com a emocionante possibilidade de
+                            condução ao ar livre.
+                            Este veículo combina a nostalgia da lendária marca com a liberdade de um conversível,
+                            oferecendo uma experiência única e elegante na estrada."</h5>
+                        <a href="#" class="btn btn-primary  m-3">Venha Conferir!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="card">
+                    <img src="./fotos/coluna02.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Cadilac Taxi</h4>
+                        <h5 class="card-subtitle">O Cadillac Taxi redefine a elegância no transporte urbano. Com linhas
+                            sofisticadas e conforto excepcional, este veículo oferece uma experiência de viagem única,
+                            combinando o luxo característico da marca Cadillac com
+                            a praticidade e eficiência de um táxi. Chegue ao seu destino com estilo, classe e o máximo
+                            de conforto a bordo do Cadillac Taxi.</h5>
+                        <a href="#" class="btn btn-primary  m-3">Venha Conferir!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="./fotos/coluna03.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Mini Fusca</h4>
+                        <h5 class="card-subtitle">O Mini Fusca é uma irresistível celebração de nostalgia sobre quatro
+                            rodas. Com seu design compacto e charmoso, este veículo captura a essência clássica do
+                            lendário Fusca, mas em uma escala menor. Perfeito para quem busca o equilíbrio perfeito
+                            entre estilo retrô e praticidade urbana,
+                            o Mini Fusca é uma adorável manifestação do passado, projetada para encantar as ruas
+                            modernas com sua presença cativante.</h5>
+                        <a href="#" class="btn btn-primary  m-3">Venha Conferir!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

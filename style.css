@@ -1,0 +1,22 @@
+body {
+    background-color: rgba(195, 195, 211, 0.603);
+}
+.container >img {
+    height: 50px;
+    align-items: left;
+}
+.carousel-item img {
+    object-fit: cover;
+}
+h4,h5 {
+    text-align: left;
+    padding: 10px 0 0 10px;
+}
+.titulo-bot {
+    padding-top: 20px;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 8px;
+font-family: 'Bebas Neue', sans-serif;
+}
